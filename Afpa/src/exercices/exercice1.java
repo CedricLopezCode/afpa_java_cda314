@@ -3,8 +3,6 @@ package exercices;
 public class exercice1 {
 
 	public static void main(String[] args) {
-		System.out.println("EXERCICE 1");
-		
 		int annee = 2000;
 		
 		if(annee % 4 == 0 && annee % 100 != 0 || annee % 400 ==0) {
@@ -28,5 +26,25 @@ public class exercice1 {
 		if(divisible == 0) {
 			System.out.println("est premier");
 		}
+		moussa1();
+		
+		moussa2();
 	}
+
+	// fonction ou methode
+	public void moussa() {
+		System.out.println("Bonjour");
+	}
+	
+	public static int moussa1() {
+		System.out.println("Bonjour");
+		
+		return 52;
+	}
+	
+	public static String moussa2() {
+		System.out.println("Bonjour");
+		
+		return "";
+	}	
 }
