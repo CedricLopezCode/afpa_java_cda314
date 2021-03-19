@@ -1,8 +1,13 @@
 package Serie_exercices;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Main {
 
 	public static void main(String[] args) {
+		
+		//Version 1
 		Specialite [] specialite = new Specialite[5];
 		
 		specialite[0] = new Specialite("JAVA/JEE");
@@ -35,17 +40,41 @@ public class Main {
 			if(compter == 0) {				
 				System.out.println("Aucun enseignant pour la spécialité "+spec);
 			}
-			
-			
 		}
 		
+		System.out.println("=============== tableau semaine  ==================");
 		
-		salut();
-	}
-	
-	public static String salut() {
-		return "Vivement le week-end";
-	}
+		System.out.println("===============  Option avec les collections  ==================");
 
-	
+		ArrayList<String> semaine2 = new ArrayList<>(Arrays.asList("Lundi", "mar", "mercredi", "Jeudi","vendredi", "samedi", "dimac"));
+		
+		
+		//Retirer la dernière valeur du tableau
+		System.out.println("La taille du tableau\t");
+		System.out.println(semaine2.size()-1);
+		semaine2.remove(semaine2.size() -1);
+		
+		//Afficher les valeurs du tableau
+		System.out.println("" +semaine2);
+		
+		//Ajouter la valeur la valeur ‘dimanche’ à la fin du tableau
+		semaine2.add("Dimanche");
+		System.out.println("Ajouter la valeur la valeur ‘dimanche’ à la fin du tableau\n \t" +semaine2+ "\n");
+		
+		//Remplacer le mar par mardi
+		//Positiion de mar
+		int index = semaine2.indexOf("mar");
+		semaine2.set(index, "mardi");
+		System.out.println("Remplacer le mar par mardi \t"+semaine2);
+		
+		//Afficher le nombre de valeurs du tableau
+		//size
+		System.out.println("Afficher le nombre de valeurs du tableau \n\t"+semaine2.size());
+		
+		//Afficher la 5éme valeur
+		System.out.println("Afficher la 5éme valeur: \n\t" +semaine2.get(4));
+		
+		//Affiche le nombre
+		System.out.println("Afficher le nouveau: \n\t" +semaine2);
+	}
 }
