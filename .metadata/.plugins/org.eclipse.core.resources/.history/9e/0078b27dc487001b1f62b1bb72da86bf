@@ -1,8 +1,0 @@
-package Heritage;
-
-public class Fille {
-
-	public String Fille() {
-		return "Je suis la fille";
-	}
-}

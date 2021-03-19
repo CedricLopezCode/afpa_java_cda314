@@ -1,0 +1,12 @@
+package Serie_exercices;
+
+public class TestLivre {
+
+	public static void main(String[] args) {
+		Livre moussa = new Livre("Cool le Java","Afpa",5.55);
+		Livre lol = new Livre("J'aime l'informatique","Cda",314);
+		Livre pff = new Livre("Oups, on est reconfiné","Macron",99.51);
+
+	}
+
+}

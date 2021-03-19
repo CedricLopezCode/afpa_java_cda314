@@ -1,9 +1,0 @@
-package Heritage;
-
-public class Fille extends Parent{
-
-	public String Fille() {
-		return " Je suis la classe fille et j'hérite de mes parent" + Mere();
-	}
-}
-

@@ -1,8 +1,0 @@
-package POO;
-
-public class Parent {
-	
-	public String Parent() {
-		return "Je suis le parent";
-	}
-}

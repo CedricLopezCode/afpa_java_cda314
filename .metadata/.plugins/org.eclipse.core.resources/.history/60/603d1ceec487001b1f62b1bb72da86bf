@@ -1,8 +1,0 @@
-package Heritage;
-
-public class Parent {
-	
-	public String Parent() {
-		return "Je suis la classe parent";
-	}
-}

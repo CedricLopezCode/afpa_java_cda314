@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;afpa_java_cda314&apos;" deleteContents="false" description="Delete resource &apos;afpa_java_cda314&apos;" element1="/afpa_java_cda314" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1616055074486"/>
-</session>

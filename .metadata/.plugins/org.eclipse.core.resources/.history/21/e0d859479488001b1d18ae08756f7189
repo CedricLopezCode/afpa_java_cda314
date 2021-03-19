@@ -1,0 +1,17 @@
+package Serie_exercices;
+
+public class Enseignant {
+	private static int id;
+	private String nom;
+	private String prenom;
+	private String email;
+	public Enseignant(String nom, String prenom, String email) {
+		super();
+		this.id ++;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+	}
+	
+	
+}

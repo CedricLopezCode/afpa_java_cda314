@@ -1,6 +1,0 @@
-package Heritage;
-
-public class Humain extends Personne{
-	manger();
-	
-}

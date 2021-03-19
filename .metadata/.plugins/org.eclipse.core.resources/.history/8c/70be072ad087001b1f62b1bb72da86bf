@@ -1,8 +1,0 @@
-package Les_Simpsons;
-
-public class Enfant {
-
-	public String Fils() {
-		return "Bart,";
-	}
-}
