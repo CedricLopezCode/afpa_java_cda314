@@ -1,0 +1,12 @@
+package Heritage;
+
+public class Parent {
+	
+	public String Mere() {
+		return "Je suis la mere";
+	}
+	
+	public String Pere() {
+		return "Je suis le pére";
+	}
+}

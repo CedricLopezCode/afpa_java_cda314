@@ -1,0 +1,29 @@
+package POO;
+
+public class Voiture {
+	private String marque;
+
+	public Voiture() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Voiture(String marque) {
+		super();
+		this.setMarque(marque);
+	}
+
+	@Override
+	public String toString() {
+		return "Voiture [marque=" + getMarque() + "]";
+	}
+
+	public String getMarque() {
+		return marque;
+	}
+
+	public void setMarque(String marque) {
+		this.marque = marque;
+	}
+	
+}

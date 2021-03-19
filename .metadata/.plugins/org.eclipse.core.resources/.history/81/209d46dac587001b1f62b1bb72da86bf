@@ -1,0 +1,10 @@
+package Heritage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Fille fille = new Fille();
+		System.out.println(fille.Fille());
+	}
+
+}

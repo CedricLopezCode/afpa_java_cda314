@@ -1,0 +1,35 @@
+package POO;
+
+public class Personne {
+	// Les attributs / proprietés
+	private String nom;
+	private String prenom;
+	private String email;
+	private int age;
+	
+	//Constructeur sans parametre
+	public Personne() {
+		super();
+		this.nom="AFPA";
+	}
+	
+	//Constructeur avec parametre
+	
+	public Personne(String nom_param, String prenom, String email, int age) {
+		super();
+		this.nom = nom_param;
+		this.prenom = prenom;
+		this.email = email;
+		this.age = age;
+	}
+
+	public Personne(String email) {
+		super();
+		this.email = email;
+	}
+
+	@Override
+	public String toString() {
+		return "Personne [nom=" + nom + ", prenom=" + prenom + ", email=" + email + ", age=" + age + "]";
+	}
+}

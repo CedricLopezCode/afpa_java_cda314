@@ -1,0 +1,5 @@
+package POO;
+
+public class Ville2 extends Ville {
+
+}

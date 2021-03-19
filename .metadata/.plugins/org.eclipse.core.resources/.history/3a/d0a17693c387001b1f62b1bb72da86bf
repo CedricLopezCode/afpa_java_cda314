@@ -1,0 +1,8 @@
+package POO;
+
+public class fille extends Parent {
+	
+	public String Fille() {
+		return "Je suis la fille";
+	}
+}

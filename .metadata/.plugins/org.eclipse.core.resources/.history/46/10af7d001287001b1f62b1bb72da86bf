@@ -1,0 +1,41 @@
+package calculatrice;
+
+import java.util.Scanner;
+
+public class Calcul {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Choisissez une année.");
+		Scanner scanner = new Scanner(System.in);
+		//int choix = scanner.nextInt();
+		
+		// VERSION JS
+		// prompt
+		
+		//chaine de caractére
+		//scanner.next();
+		//scanner.nextLine();
+		
+		//INT entier naturel
+		//scanner.nextInt();
+		
+		//nombre décimal
+		//scanner.nextDouble();
+		
+		//String nom = scanner.next();
+		//System.out.println("Bonjour " +nom);
+
+		//System.out.println("Voici ton choix: " +choix);
+		
+		//ANNEE
+		
+		int annee = scanner.nextInt();
+		if(annee % 4 == 0 && annee % 100 != 0 || annee % 400 ==0) {
+			System.out.println(" L'ANNEE "+ annee + " EST BISSEXTILE");
+		}else {
+			System.out.println("PAS BISSEXTILE");
+		}
+
+	}
+}

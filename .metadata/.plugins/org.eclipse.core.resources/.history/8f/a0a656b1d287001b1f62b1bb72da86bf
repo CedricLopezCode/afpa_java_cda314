@@ -1,0 +1,21 @@
+package Les_Simpsons;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Enfant fils = new Enfant();
+		
+		/*System.out.print(fils.Fils()+" mon pére est " +fils.Pere());
+		System.out.print(", ma mere est " +fils.Mere());
+		System.out.println(", mon grand-pére est " +fils.GrandPere());
+		System.out.println(", ma grand-mére est " +fils.GrandMere());*/
+		
+		Enfant fille = new Enfant("Lisa");
+		Enfant fille2 = new Enfant("Maggie");
+		
+		System.out.println(fils);
+		System.out.println(fille);
+		System.out.println(fille2);
+	}
+
+}

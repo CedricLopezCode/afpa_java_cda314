@@ -1,0 +1,19 @@
+package Heritage;
+
+abstract class Personne {
+	
+	abstract public String marcher();
+	abstract public String manger();
+	//abstract public String dormir();
+	
+	/*public String manger() {
+		return "Marche en courant";
+	}
+	/*public String manger() {
+		
+	}
+	public String dormir() {
+		
+	}*/
+}
+

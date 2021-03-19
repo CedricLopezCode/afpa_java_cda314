@@ -1,19 +1,25 @@
 package POO;
 
 public class Ville {
-	private String nom;
-	private int departement;
-	
+	 private String nom;
+	 private int dept;
+	 
 	public Ville() {
 		super();
 		this.nom = "Paris";
-		this.departement = 75;
+		this.dept= 75;
 	}
-
-	public Ville(String nom, int departement) {
+	
+	public Ville(String nom, int dept) {
 		super();
 		this.nom = nom;
-		this.departement = departement;
+		this.dept = dept;
+	}
+
+
+
+	public void affichage() {
+		System.out.println("la ville de " +nom+ " est dans le département "+dept);
 	}
 
 	public String getNom() {
@@ -24,20 +30,13 @@ public class Ville {
 		this.nom = nom;
 	}
 
-	public int getDepartement() {
-		return departement;
+	public int getDept() {
+		return dept;
 	}
 
-	public void setDepartement(int departement) {
-		this.departement = departement;
+	public void setDept(int dept) {
+		this.dept = dept;
 	}
-
-	@Override
-	public String toString() {
-		return " La ville est " +nom+ ", son département est "+departement;
-	}
-	
-	public void affichage() {
-		System.out.println("La ville est " +nom+", son département est "+departement);
-	}
+	 
+	 
 }

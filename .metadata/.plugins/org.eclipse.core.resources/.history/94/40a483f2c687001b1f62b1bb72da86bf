@@ -1,0 +1,11 @@
+package Heritage;
+
+public class Animal {
+	public String deplacer() {
+		return "";
+	}
+	
+	public String Manger() {
+		return "";
+	}
+}

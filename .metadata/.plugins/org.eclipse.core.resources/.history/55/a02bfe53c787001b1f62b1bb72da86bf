@@ -1,0 +1,12 @@
+package Heritage;
+
+public class Lion extends Animal{
+	
+	public String identifier() {
+		
+		return identifier()+"Je suis un Lion";
+	}
+	public String crier() {
+		return "Rugi";
+	}
+}

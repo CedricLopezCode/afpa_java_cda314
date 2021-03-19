@@ -1,0 +1,8 @@
+package Heritage;
+
+public class Fille extends Parent{
+
+	public String Fille() {
+		return Parent() + " Je suis la fille";
+	}
+}

@@ -1,0 +1,28 @@
+package POO;
+
+public class Personne {
+	private String nom;
+	private String prenom;
+	private String email;
+	
+	public Personne() {
+		super();
+	}
+	
+
+	public Personne(String nom, String prenom) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Personne [nom=" + nom + ", prenom=" + prenom + ", email=" + email + "]";
+	}
+	
+	
+	
+}

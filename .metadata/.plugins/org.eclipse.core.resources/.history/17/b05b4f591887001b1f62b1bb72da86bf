@@ -1,0 +1,29 @@
+package calculatrice;
+
+import java.util.Scanner;
+
+public class Calcul {
+
+	public static void main(String[] args) {
+		
+		Scanner machin_bidule = new Scanner(System.in);
+		System.out.println("Choisissez une année");
+	
+		//ANNEE
+		int annee = machin_bidule.nextInt();
+		if(annee % 4 == 0 && annee % 100 != 0 || annee % 400 ==0) {
+			System.out.println(" L'ANNEE "+ annee + " EST BISSEXTILE");
+		}else {
+			System.out.println("PAS BISSEXTILE");
+		}
+		
+		// Table de multiplication
+		System.out.println("Entrez un chiffre");
+		 int chiffre = machin_bidule.nextInt();
+		 
+		 for (int i = 0; i < 11; i++) {
+			System.out.println(chiffre +" * " + i+" = "+(chiffre*i));
+		}
+
+	}
+}

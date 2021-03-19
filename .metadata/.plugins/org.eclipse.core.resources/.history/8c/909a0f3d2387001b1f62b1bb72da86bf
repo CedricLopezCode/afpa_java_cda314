@@ -1,0 +1,15 @@
+package POO;
+
+public class Personne {
+	// Les attributs / proprietés
+	private String nom;
+	private String prenom;
+	private String email;
+	private int age;
+	
+	
+	public Personne() {
+		super();
+	
+	}	
+}

@@ -1,0 +1,23 @@
+package POO;
+
+public class Personne {
+	// Les attributs / proprietés
+	private String nom="camara";
+	private String prenom;
+	private String email;
+	private int age;
+	
+	//Constructeur sans parametre
+	public Personne() {
+		super();
+	}
+	
+	//Constructeur avec parametre
+	
+	
+
+	@Override
+	public String toString() {
+		return "nom=" + nom + ", prenom=" + prenom;
+	}
+}

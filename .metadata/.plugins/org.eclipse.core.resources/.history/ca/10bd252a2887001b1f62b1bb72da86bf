@@ -1,0 +1,19 @@
+package POO;
+
+public class main {
+
+	public static void main(String[] args) {
+		//instancier mon objet
+		Personne moussa = new Personne();
+		
+		//Personne p2 = new Personne("Test afpa","prenom","email",30);
+		
+		//Personne p3 = new Personne(25,"testtest.fe");
+		
+		System.out.println(moussa);
+		//System.out.println(p2);
+		//System.out.println(p3);
+
+	}
+
+}

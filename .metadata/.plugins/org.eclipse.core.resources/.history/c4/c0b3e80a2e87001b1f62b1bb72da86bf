@@ -1,0 +1,9 @@
+package POO;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Personne p1 = new Personne();
+	}
+
+}

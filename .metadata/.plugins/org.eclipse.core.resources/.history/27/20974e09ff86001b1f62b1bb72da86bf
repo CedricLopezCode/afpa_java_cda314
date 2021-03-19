@@ -1,0 +1,13 @@
+package exercices;
+
+public class Personne {
+	
+	private String nom;
+
+	public Personne() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

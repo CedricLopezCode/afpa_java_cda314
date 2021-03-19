@@ -1,0 +1,30 @@
+package Interface;
+
+public class ArticleClass implements Article, User, Commande {
+	//public class ArticleClass extends Article, Personnes {
+
+	@Override
+	public String getTitre() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getAuteur() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getResume() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getContenu() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

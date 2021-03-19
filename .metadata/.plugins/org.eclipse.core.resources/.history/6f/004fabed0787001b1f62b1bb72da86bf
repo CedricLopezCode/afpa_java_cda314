@@ -1,0 +1,26 @@
+package calculatrice;
+
+public class Calcul {
+
+	public static void main(String[] args) {
+		
+		System.out.println(addition());
+	}
+	
+	//Addition
+	public static int addition() {
+		int a = 5;
+		int b = 15;
+		
+		return a+b;
+	}
+	
+	public static int addition2() {
+		int a = 15;
+		int b = 30;
+		
+		return a+b;
+	}
+
+	
+}

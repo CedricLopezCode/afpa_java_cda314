@@ -23,20 +23,18 @@ public class Main {
 		System.out.println(p5);
 		
 		//EXERCICE VILLE
+		Ville ville_par_defaut = new Ville();
+		Ville nouvelle_ville = new Ville("moussaCity",123);
+		Ville nouvelle_ville2 = new Ville("ingridCity",971);
 		
-		Ville v1 = new Ville();
-		Ville v2 = new Ville("Lyon", 69);
-		Ville v3 = new Ville("Marseille", 13);
+		ville_par_defaut.affichage();
+		nouvelle_ville.affichage();
+		nouvelle_ville2.affichage();
 		
-		System.out.println(v1);
-		System.out.println(v2);
-		System.out.println(v3);
-		
-		v1.setNom("Lyon");
-		v1.setDepartement(69);
-		System.out.println(v1);
-		
-		v1.affichage();
+		ville_par_defaut.setNom("Lyon");
+		ville_par_defaut.setDept(69);
+		ville_par_defaut.affichage();
+		System.out.println(ville_par_defaut.getNom());
 	}
 
 }
